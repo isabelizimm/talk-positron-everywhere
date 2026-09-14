@@ -4,6 +4,8 @@ author: isabel zimmerman
 format: 
     revealjs:
         slide-number: c/t
+        center: true
+        theme: [default, custom.scss]   
 ---
 
 ## 

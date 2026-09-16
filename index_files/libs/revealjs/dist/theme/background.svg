@@ -1,0 +1,27 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1920" height="1080" fill="#ffffff"/>
+
+  <!-- Top border squiggle -->
+  <path d="M -20 40 Q 40 0, 100 40 T 220 40 T 340 40 T 460 40 T 580 40 T 700 40 T 820 40 T 940 40 T 1060 40 T 1180 40 T 1300 40 T 1420 40 T 1540 40 T 1660 40 T 1780 40 T 1900 40 T 2020 40 L 2020 -20 L -20 -20 Z"
+        fill="none" stroke="#7fff00" stroke-width="16" stroke-linecap="round"/>
+  <path d="M -20 70 Q 40 30, 100 70 T 220 70 T 340 70 T 460 70 T 580 70 T 700 70 T 820 70 T 940 70 T 1060 70 T 1180 70 T 1300 70 T 1420 70 T 1540 70 T 1660 70 T 1780 70 T 1900 70 T 2020 70"
+        fill="none" stroke="#6a0dad" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Bottom border squiggle -->
+  <path d="M -20 1040 Q 40 1000, 100 1040 T 220 1040 T 340 1040 T 460 1040 T 580 1040 T 700 1040 T 820 1040 T 940 1040 T 1060 1040 T 1180 1040 T 1300 1040 T 1420 1040 T 1540 1040 T 1660 1040 T 1780 1040 T 1900 1040 T 2020 1040 L 2020 1100 L -20 1100 Z"
+        fill="none" stroke="#7fff00" stroke-width="16" stroke-linecap="round"/>
+  <path d="M -20 1010 Q 40 970, 100 1010 T 220 1010 T 340 1010 T 460 1010 T 580 1010 T 700 1010 T 820 1010 T 940 1010 T 1060 1010 T 1180 1010 T 1300 1010 T 1420 1010 T 1540 1010 T 1660 1010 T 1780 1010 T 1900 1010 T 2020 1010"
+        fill="none" stroke="#6a0dad" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Left border squiggle -->
+  <path d="M 40 -20 Q 0 40, 40 100 T 40 220 T 40 340 T 40 460 T 40 580 T 40 700 T 40 820 T 40 940 T 40 1060 T 40 1180"
+        fill="none" stroke="#7fff00" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 70 -20 Q 30 40, 70 100 T 70 220 T 70 340 T 70 460 T 70 580 T 70 700 T 70 820 T 70 940 T 70 1060 T 70 1180"
+        fill="none" stroke="#6a0dad" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Right border squiggle -->
+  <path d="M 1880 -20 Q 1920 40, 1880 100 T 1880 220 T 1880 340 T 1880 460 T 1880 580 T 1880 700 T 1880 820 T 1880 940 T 1880 1060 T 1880 1180"
+        fill="none" stroke="#7fff00" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 1850 -20 Q 1890 40, 1850 100 T 1850 220 T 1850 340 T 1850 460 T 1850 580 T 1850 700 T 1850 820 T 1850 940 T 1850 1060 T 1850 1180"
+        fill="none" stroke="#6a0dad" stroke-width="10" stroke-linecap="round"/>
+</svg>

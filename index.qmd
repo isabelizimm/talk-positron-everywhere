@@ -5,27 +5,29 @@ format:
     revealjs:
         slide-number: c/t
         center: true
-        theme: [default, custom.scss]   
+        theme: [default, custom.scss]
+        width: 1920
+        height: 1080
 ---
 
 ## 
 
 ::: {layout-ncol="4"}
-![](images/bridgerton.png)
+![](images/bridgerton.png){width="35%"}
 
-![](images/dove.png)
+![](images/dove.png){width="35%"}
 
-![](images/sixofcrows.png)
+![](images/sixofcrows.png){width="35%"}
 
-![](images/twilight.png)
+![](images/twilight.png){width="35%"}
 
-![](images/onepiece.png)
+![](images/onepiece.png){width="35%"}
 
-![](images/dcc.png)
+![](images/dcc.png){width="35%"}
 
-![](images/kindred.png)
+![](images/kindred.png){width="35%"}
 
-![](images/soa.png)
+![](images/soa.png){width="35%"}
 :::
 
 ::: notes
@@ -36,7 +38,7 @@ i spend my 5-9 building and using tools for bookbinding. i love it becuase i get
 
 ## 
 
-![](images/tool.jpeg)
+![](images/tool.jpeg){fig-align="center" width="85%"}
 
 ::: notes
 thesis: a good product/tool must, first and foremost, work well for the task at hand. but using the right tool at in the right place at the right time is equally as important.
@@ -46,7 +48,7 @@ when i started rebinding books, i just used craft scissors for all mediums--whet
 
 ## 
 
-![](images/dwts.png)
+![](images/dwts.png){fig-align="center"}
 
 ::: notes
 if i move this thesis to non-bookish products i work on...let's all think about Positron, an IDE for data science.
@@ -58,7 +60,7 @@ Positron is a fork of Code-OSS
 
 ## 
 
-![](images/front-back.jpg)
+![](images/front-back.jpg){fig-align="center"}
 
 ::: notes
 We can actually cut Positron in half and think of it as the front and back end
@@ -73,7 +75,7 @@ That split is why all four deployment modes are even possible: the UI can run in
 
 # Desktop Positron
 
-![](images/craft-scissors.webp)
+![](images/craft-scissors.webp){fig-align="center"}
 
 ::: notes
 if we think of different ide formats like tools, i'd say desktop positron is like a set of crafting scissors
@@ -83,7 +85,7 @@ general purpose, the most used!
 
 ## Desktop Positron
 
-![](images/on-laptop.jpg)
+![](images/on-laptop.jpg){fig-align="center"}
 
 ::: notes
 so, i've been on the positron team since it's firsrt launch! and this is the first, main way that positron was delivered
@@ -93,7 +95,7 @@ it is distributed in the easiest way, it's maybe not a surprise that this is the
 
 ## Desktop Positron
 
-![](images/desktop-positron.png)
+![](images/desktop-positron.png){fig-align="center"}
 
 ::: notes
 if you're a solo person, trying out an IDE, you're likely to encounter Positron in this way.
@@ -133,7 +135,7 @@ i'm calling browser the crazy scissors group, since these types of deployments h
 
 ## Browser-based IDEs
 
-![](images/browser.jpg)
+![](images/browser.jpg){fig-align="center"}
 
 ::: notes
 you can tell you're using a browser-based ide since you'll enter it via something like firefox or google chrome.
@@ -155,7 +157,7 @@ something to keep in mind, though, is that back end does have to run SOMEWHERE. 
 
 ## Browser-based: Workbench
 
-![](images/wb.png)
+![](images/wb.png){fig-align="center"}
 
 ::: notes
 perhaps the most familiar way folks know of browser based Positron is via workbench, which is one of Posit's paid products for hosted IDEs
@@ -169,6 +171,7 @@ in use, admins set this up on usually your company's servers. and then users can
 
 -   Especially fit for high compliance needs with features to help with auditing, etc
 -   Requires admin to manage remote compute
+-   Compute scales with the server, not your laptop
 
 ::: notes
 the time we'll usually see this is when folks have high compliance needs
@@ -180,7 +183,7 @@ auditiing
 
 ## Browser-based: JupyterHub
 
-![](images/jhub.png) 
+![](images/jhub.png){fig-align="center"}
 
 ::: notes
 
@@ -193,7 +196,7 @@ this really spoke to me, since i owe so much of what i know to the educators who
 
 ## Browser-based: JupyterHub
 
-![](images/jh.png)
+![](images/jh.png){fig-align="center"}
 
 ::: notes
 I'm now really excited to say that Positron is available for free for education use. You'll run Positron via a Python package called jupyter-server-proxy. 
@@ -203,20 +206,21 @@ I'm now really excited to say that Positron is available for free for education 
 ## Browser-based: JupyterHub
 
 -   Free for educational use, requires a license
--   Admins will manage a lightweight installation on top of current JupyterHub deployment
+-   Great fit for classrooms and workshops where students shouldn't have to install anything
+-   Lower admin setup burden than Workbench for orgs already invested in Jupyter infrastructure
 
 ::: notes
 -   if youre running your own server with Positron on it, there will be higher setup costs for admins. users have the benefit of just clicking a button, but admins will configure the Jupyter Positron Server Python package, which is the glue between JupyterHub and Positron
 
 -   Positron Server is available for educational use (like teaching and workshops) and is readily available for JupyterHub or OpenOnDemand
 
-TIME:
+TIME: educational use
 PLACE: jupyterhub
 :::
 
 ## Browser-based: Posit Cloud
 
-![](images/cloud.png)
+![](images/cloud.png){fig-align="center"}
 
 ::: notes
 Back to those interviews earlier this year, we didn't JUST hear JupyterHub mentioned. So many folks were interested in using Positron on Posit Cloud.
@@ -225,7 +229,7 @@ Back to those interviews earlier this year, we didn't JUST hear JupyterHub menti
 
 ## Browser-based: Posit Cloud
 
-![](images/cloud-sc.png)
+![](images/cloud-sc.png){fig-align="center"}
 
 ::: notes
 As of just a few weeks ago, Positron can also be used in Posit Cloud. This is as easy as clicking a link, requires no infrastructure or IT team, no trying to teach an entire classroom to install Positron
@@ -235,7 +239,8 @@ As of just a few weeks ago, Positron can also be used in Posit Cloud. This is as
 ## Browser-based: Posit Cloud
 
 -   For users: click a link and you're in!
--   No admin team needed to handle install, 100% managed by Posit
+-   Zero infrastructure, ideal for trying Positron out
+-   Good for onboarding a group (students, workshop attendees) without managing individual installs
 
 ::: notes
 place is Posit Cloud, the TIME is 1) when you just want to try it out, or want something that wont melt your machine. 2) managing a group of, say, students, and dont want to manage installs for everyone
@@ -248,11 +253,24 @@ sharing with others via
 
 ## Browser-based: AWS SageMaker
 
-TODO: image
+![](images/sagemaker.png){fig-align="center"}
+
+::: notes
+now, this has been talked about more extensively yesterday by james blair, but Positron on AWS another one of the newest front doors, positron running inside a SageMaker studio domain
+:::
+
+## Browser-based: AWS SageMaker
+
+-   Fits teams already standardized on AWS/SageMaker for data and ML workflows
+-   Data stays close to compute, no need to move it out of AWS
+
+::: notes
+place is wherever your AWS org already runs SageMaker
+:::
 
 # Remote SSH
 
-![](images/gingher.webp)
+![](images/gingher.webp){fig-align="center"}
 
 ::: notes
 we've seen all on your computer and all off your computer, but what about A SECRET THIRD OPTION
@@ -260,40 +278,75 @@ we've seen all on your computer and all off your computer, but what about A SECR
 
 ## Remote SSH
 
-![](images/ssh.jpg)
+![](images/ssh.jpg){fig-align="center"}
+
+::: notes
+this is the one without a fancy product name attached to it: you already have a machine somewhere you can SSH into, and you point positron's desktop app at it
+
+no browser, no admin-managed platform in between, just the same connection you'd already use to ssh in from a terminal
+:::
 
 ## Remote SSH
 
--   Front end stays local, back end runs on a remote host, connected over plain SSH
+-   For folks who already have a remote machine (lab server, cloud VM, HPC node) and just want to point an IDE at it
+-   No browser layer or admin-managed product to install, just SSH access
+-   More control than a managed browser deployment, without giving up your local desktop UI
+
+::: notes
+place is really anywhere you can ssh to, time is whenever you already have that access and don't want to wait on IT to stand up a whole new deployment
+
+this is the one that feels the most like desktop positron day to day, the difference is just where the R/Python session actually lives
+:::
 
 ##
 
-![](images/tool.jpeg)
+![](images/tool.jpeg){fig-align="center" width="85%"}
+
+::: notes
+back to the tool metaphor from the start: same idea, just scaled up from crafting scissors to an entire IDE
+
+whether it's desktop, a browser, or ssh, it's still one tool, just met to fit the place and time it's being used in
+:::
 
 ## IDE Roundup
 
-```{mermaid}
-%% graph LR
-%% fe[Front end on laptop?]  -- yes --> beL[Back end on laptop?] -- yes --> d[Desktop]
-%% beL -- no --> rssh[Remote SSH]
-%% fe -- no --> be[Are your admins managing back end?] -- yes --> acad[Do you have an educational use case?]
-%% acad -- yes --> ponjh[Positron on JupyterHub]
-%% acad -- no --> idewb[Workbench]
-%% be -- no --> 
-```
+::: {.ide-roundup}
+::: {.ide-browser-group}
+Browser-based
 
-| Positron Flavor | Where is front end? | Where is back end? | Use cases       |
-|-----------------|---------------------|--------------------|-----------------|
-| Desktop         | On your machine     | On your machine    | General purpose |
-| JupyterHub      |                     |                    |                 |
-| Workbench       |                     |                    |                 |
-| Cloud           |                     |                    |                 |
-| AWS SageMaker   |                     |                    |                 |
-| Remote SSH      |                     |                    |                 |
+::: {.ide-box}
+Posit Workbench
+:::
+
+::: {.ide-box}
+JupyterHub / Open OnDemand
+:::
+
+::: {.ide-box}
+Posit Cloud
+:::
+
+::: {.ide-box}
+AWS SageMaker
+:::
+:::
+
+::: {.ide-box .ide-standalone}
+Desktop Positron<br>everything local
+:::
+
+::: {.ide-box .ide-standalone}
+Remote SSH<br>front end local, back end remote
+:::
+:::
+
+::: notes
+one tool, four (plus) front doors -- same front end/back end split underlies every deployment mode
+:::
 
 ## 
 
-![](images/lines.jpg)
+![](images/lines.jpg){fig-align="center" width="80%"}
 
 ::: notes
 -   reframe: not a strict ladder people graduate from — people move back and forth (a Workbench user still opens Desktop at home)
@@ -302,10 +355,14 @@ we've seen all on your computer and all off your computer, but what about A SECR
 
 ## 
 
-![](images/lines2.jpg)
+![](images/lines2.jpg){fig-align="center" width="40%"}
 
 ::: notes
 -   return to the diagram: the three stages as one continuous line, changing shape, never ending
 
 It's not just about getting people the right product. It's the right product, in the right place, at the right time.
 :::
+
+# thank you 👾
+
+check out more positron @ positron.posit.co
